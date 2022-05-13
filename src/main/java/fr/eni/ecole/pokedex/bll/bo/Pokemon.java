@@ -12,7 +12,7 @@ public class Pokemon {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public Pokemon(String name, int id, String image, List<Type> types) {
+	public Pokemon(int id, String name, String image, List<Type> types) {
 		super();
 		this.name = name;
 		this.id = id;
